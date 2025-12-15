@@ -1,5 +1,6 @@
-SQLAlchemy
-psycopg2-binary
-python-dotenv
-FastAPI
-uvicorn[standard]
+SQLAlchemy==2.0.45
+psycopg2-binary==2.9.11
+python-dotenv==1.2.1
+FastAPI==0.115.5
+uvicorn[standard]==0.32.1
+pydantic==2.10.3

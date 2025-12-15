@@ -1,8 +1,10 @@
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
-from app.db import SessionLocal
-from app import crud
-from app.schemas import CategoryCreate, Category
+from typing import Optional, List
+from app.db.db import SessionLocal  
+from app.db import crud  
+from app.db.schemas import BookCreate, Book
+from app.db.schemas import CategoryCreate, Category
 
 router = APIRouter()
 
